@@ -1,0 +1,13 @@
+let a=''
+for(let b=1;b<=8;b++){
+  for(let c=1;c<=8;c++){
+  if((b+c)%2==0){
+    a+=' '
+  }else{
+    a+='#'
+  }
+}  
+a+='\n'
+
+}
+console.log(a)

@@ -1,0 +1,9 @@
+function f(a,b){
+  if(ab){
+    return a
+  }else{
+    return b
+  }
+}
+console.log(f(0, 10));
+console.log(f(0, -10));

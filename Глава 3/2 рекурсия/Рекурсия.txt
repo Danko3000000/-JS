@@ -1,0 +1,9 @@
+function f(n){
+  if(n==0) return true
+  else if (n==1) return false
+  else if (n0) return f(-n)
+  else return f(n-2)
+}
+console.log(f(50));
+console.log(f(75));
+console.log(f(-1));

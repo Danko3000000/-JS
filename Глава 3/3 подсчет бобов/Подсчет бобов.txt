@@ -1,0 +1,17 @@
+
+  function countChar(a,b){
+  let n=a.length,i=0,s=0
+  while (i<n){
+if (a[i]==b){
+s++}
+i++
+}
+return s;
+}
+
+
+ function countBs(a){
+return countChar(a,'B')
+ }
+console.log(countBs("BBC"));
+console.log(countChar("kakkerlak", "k"));
